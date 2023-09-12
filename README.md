@@ -7,3 +7,6 @@ https://MadinaEleubaeva.GitHub.io/festival.html
 
 NEW YORK
 https://MadinaEleubaeva.GitHub.io/new%20york.html
+
+RESUME
+https://MadinaEleubaeva.GitHub.io/resume.html
