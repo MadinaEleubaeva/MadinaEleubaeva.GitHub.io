@@ -13,3 +13,7 @@ https://MadinaEleubaeva.GitHub.io/resume.html
 
 FASHION
 https://MadinaEleubaeva.GitHub.io/wikipedia/fashion.html
+
+
+TODO
+https://MadinaEleubaeva.GitHub.io/css/tasks/flexbox/todo.html
