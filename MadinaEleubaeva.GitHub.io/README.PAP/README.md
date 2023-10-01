@@ -9,7 +9,9 @@ NEW YORK
 https://MadinaEleubaeva.GitHub.io/new%20york.html
 
 RESUME
-https://MadinaEleubaeva.GitHub.io/resume.htm
+https://MadinaEleubaeva.GitHub.io/resume.html
 FASHIONl
-
 https://MadinaEleubaeva.GitHub.io/wikipedia/fashion.html
+
+New Resume
+https://MadinaEleubaeva.GitHub.io/resume.html
