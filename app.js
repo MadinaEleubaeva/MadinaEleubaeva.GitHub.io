@@ -1,71 +1,90 @@
-const inputElement = document.getElementById("title");
-const createBtn = document.getElementById("create");
-const listElement = document.getElementById("list");
+const names = ["Adil", "Aray", "Aza", "Maks"];
+// names.push('Akim')
+// names.unshift('Akim')
 
-const notes = [
-  {
-    title: "Get 100 points",
-    completed: false,
-  },
-  {
-    title: "Preparing for quiz",
-    completed: true,
-  },
+// const FirstNames = names.shift();
+// const FirstNames = names.pop()
+// console.log('Names: ',names, FirstNames)
+
+// console.log(names.reverse())
+// const reversed = names toReversed()
+// const letters = ['a', 'e', 'd', 'b', 'c']
+// console.log(letters.toSorted())
+// console.log(letters)
+
+// console.log(names,splice(0, 2))
+// console.log(names)
+
+const greatWoman = "Aray";
+const index = names.index0f(greatWoman);
+
+// console.log(index)
+const newNames = names.with(index, "Aray");
+
+// names[index] = 'Aray'
+// console.log(names[index])
+// console.log(names)
+// console.log(newNames)
+
+//const capitalNames = names.map(function (newNames, index) {
+//if ((index = 1)) {
+//return "Aray";
+// }
+//return newNames;
+//});
+console.log(capitalNames);
+
+console.log(capitalNames);
+
+const people = [
+  { newNames: "Adil", budget: 4200 },
+  { newNames: "Aray", budget: 4200 },
+  { newNames: "Aza", budget: 4200 },
+  { newNames: "Maks", budget: 4200 },
 ];
+console.log(people.indexof({ name: "Maks", budget: 7520 }));
 
-function render() {
-  listElement.innerHTML = "";
-  if (notes.length === 0) {
-    listElement.innerHTML = "<p>Нет элементов</p>";
-  }
-  for (let i = 0; i < notes.length; i++) {
-    listElement.insertAdjacentHTML("beforeend", getNoteTemplate(notes[i], i));
-  }
-}
-render();
+//let findedPerson
+//for (let person of people){
+// if(let person.budget = 7520) {
+// findedPerson = person
+// }
+//}
 
-createBtn.onclick = function () {
-  if (inputElement.value.length === 0) {
-    return;
-  }
-  const newNote = {
-    title: inputElement.value,
-    completed: false,
-  };
-  notes.push(newNote);
-  render();
-  inputElement.value = "";
-};
+// const findedPerson = people.find(function (person){
+// return person.budget = 7520
+// if (person.budget = 7520){
+// // return true
+// // }
+// })
+// const findedPerson = people.find(function (person) {
+// return person.budget = 75201
+// if(person.budget = 7520){
+// return true
+// // }
+// })
 
-listElement.onclick = function (event) {
-  if (event.target.dataset.index) {
-    const index = parseInt(event.target.dataset.index);
-    const type = event.target.dataset.type;
+// const finded = people.findIndex(function(person){
+// return person.budget = 7520
+// })
 
-    if (type === "toggle") {
-      notes[index].completed = !notes[index].completed;
-    } else if (type === "remove") {
-      notes.splice(index, 1);
-    }
+// console.log(people.with(finded, 42)
 
-    render();
-  }
-};
+// const filtered = people.filter(function (p) ) {
+// return p.budget > 5000
+//})
+// console.log(filtered)
+// const sum budget = people
 
-function getNoteTemplate(note, index) {
-  return `
-    <li
-      class="list-group-item d-flex justify-content-between align-items-center"
-    >
-      <span class="${note.completed ? "text-decoration-line-through" : ""}">${
-    note.title
-  }</span>
-      <span>
-        <span class="btn btn-small btn-${
-          note.completed ? "warning" : "success"
-        }" data-index="${index}" data-type="toggle">&check;</span>
-        <span class="btn btn-small btn-danger" data-type="remove" data-index="${index}">&times;</span>
-      </span>
-    </li>
-  `;
-}
+// const byBudjet = (p) = p.budget > 5000
+const pickBudjet = (p = p.budget);
+
+const sumBudget = people;
+//.filter(byBudget)
+//.map(pickBudget)
+//.reduce((acc.p) = acc + p,0)
+
+// console.log(sumBudget)
+const string = "Привет, какм дела?";
+const reversed = string.split("").toReversed().join("!");
+console.log(reversed);
